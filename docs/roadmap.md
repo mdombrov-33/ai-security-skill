@@ -13,7 +13,7 @@ The initial skill has four workflows and eight topic references. The immediate w
 ## Before a public release
 
 - Test the installer and the installed skill in each advertised host.
-- Choose the public repository and a private reporting channel.
+- Set up a private reporting channel.
 - Recheck version-sensitive source material and attribution.
 - Publish cases, model/host configuration, raw results and limitations. Keep private project evidence private.
 

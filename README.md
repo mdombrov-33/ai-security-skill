@@ -7,12 +7,10 @@ An agent skill for reviewing, designing and securing AI applications. Covers pro
 Run this from the project where you want to use the skill:
 
 ```sh
-npx skills@latest add YOUR_GITHUB_OWNER/ai-security-skill
+npx skills@latest add mdombrov-33/ai-security-skill
 ```
 
 Choose your agent and **project** installation in the terminal. Requires Node.js 22.20+. You do not need to clone this repository or run `npm install` first.
-
-The repository address above is a placeholder until publication.
 
 Then ask your agent:
 
