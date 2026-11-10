@@ -1,0 +1,14 @@
+{
+  "name": "ai-security-skill",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Practical security guidance for LLM applications and agents",
+  "license": "MIT",
+  "engines": { "node": ">=22.20.0" },
+  "scripts": {
+    "setup": "skills add .",
+    "skills:list": "skills add . --list",
+    "test": "python3 -m unittest discover -s tests -v"
+  },
+  "devDependencies": { "skills": "1.7.6" }
+}

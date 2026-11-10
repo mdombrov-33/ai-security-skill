@@ -1,0 +1,8 @@
+{
+  "id": "rag-review",
+  "fixture": "evals/fixtures/rag",
+  "variants": ["variant_a.py", "variant_b.py"],
+  "request": "Review the supplied document assistant implementation for AI security defects involving retrieval, rendering and persistent summaries. Inspect the declared gateway and rendering assumptions. Use only these local artifacts and synthetic probes; do not modify the target or contact external systems. Report findings with locations, severity, confidence, verification and scope limits.",
+  "suggested_references": ["workflow-review", "context-and-injection", "retrieval-and-data", "memory-and-compaction", "execution-and-output"],
+  "rubric": "evals/rubrics/rag-review.md"
+}

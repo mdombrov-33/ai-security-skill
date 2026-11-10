@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Security"
+  short_description: "Review and harden AI systems at their trust boundaries"
+  default_prompt: "Use $ai-security to review this system’s data and authority boundaries, report evidence-backed findings, and identify verification gaps."
