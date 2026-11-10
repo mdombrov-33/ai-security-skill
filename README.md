@@ -62,11 +62,5 @@ Built from OWASP's LLM and agentic security guidance, the MCP specification, res
 
 Recommendations distinguish protocol requirements from project guidance. The skill organizes that material around engineering decisions rather than asking the agent to load the entire bibliography.
 
-## Validation
-
-The repository includes a synthetic RAG application with vulnerable and protected variants, plus seven regression tests. During development, a review caught a source-lineage bug in the protected variant: repeated summarization allowed retained content to survive access revocation. The fix now has a regression test.
-
-GitHub installation has been checked for Codex. Behavioral evaluation is still limited; the fixture tests do not establish reliability across models or applications. See the [evaluation notes](evals/README.md) for results and limitations.
-
-[Contributing](CONTRIBUTING.md) · [Roadmap](docs/roadmap.md) · [MIT license](LICENSE)
+[Contributing](CONTRIBUTING.md) · [MIT license](LICENSE)
 
